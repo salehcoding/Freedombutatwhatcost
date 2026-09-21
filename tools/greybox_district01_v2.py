@@ -5,7 +5,7 @@ cube=unreal.EditorAssetLibrary.load_asset("/Engine/BasicShapes/Cube.Cube")
 cnt={"T01":0,"T02":0,"T03":0}
 def P(t,m,dx,dy,dz,x,y,h,yaw=0):
  c=cnt[t]+1;cnt[t]=c
- a=eas.spawn_actor_from_object(cube,unreal.Vector(x,y,float(h)),unreal.Rotator(0,float(yaw),0))
+  a=eas.spawn_actor_from_object(cube,unreal.Vector(x,y,float(h)),unreal.Rotator(0,0,float(yaw)))
  a.set_actor_scale3d(unreal.Vector(dx/100.0,dy/100.0,dz/100.0))
  a.set_actor_label("%s_Piece_%d"%(t,c))
  try:a.set_folder_path("Greybox/%s"%t)
