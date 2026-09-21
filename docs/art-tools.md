@@ -3,10 +3,11 @@
 ## Verified on PC
 - Blender 5.2.2 LTS at F:\Program Files\Blender Foundation\Blender 5.2\, runs headless (`--version` ok). No install needed — was already here.
 
-## Pipeline decision (version-risk found, routed around)
-- Send2UE official ABANDONED (2.4.3, Blender 3.x/UE 5.3). Community fork 2.6.7 untested on Blender 5.2 + UE 5.8 → NOT relied upon.
-- Locked: Blender built-in FBX → UE. Settings: Metric/cm, Apply All Transforms, Scale 1.0, Forward -Z, Up Y, Apply Unit+Transform, Smoothing Face, Copy+Embed textures. UE Legacy FBX flag if 5.5+ importer complains. First prove with 100cm cube at execution.
-- MetaHuman (free, in-engine 5.8) + Mixamo (free, Adobe account) for people/motion later. Licenses re-checked at use.
+## Pipeline decision (deep-verified 2026-09-21, Send2UE dead for this combo)
+- Send2UE official caps at Blender 4.2/UE 5.4 (2024). No verified build for Blender 5.2 + UE 5.8 → NOT used.
+- Locked: manual FBX. Blender scene Metric, Unit Scale 0.01 (cm), Apply All Transforms, clean normals/UV0+UV1. Export Scale 1.0, Forward -Y/Up Z, Smoothing Face, Triangulate, textures as separate PNG (no embed). UE import normals+tangents, Combine OFF, Nanite dense-only. No Legacy flag needed.
+- MCP-for-art verdict: MCP wins on in-editor placement tweaks, property edits, batch import, screenshot-verify loops (needs EditorToolset + Python bridge). Modeling/sculpt/UV/trim authoring stays default-AI + Blender files. MCP drives editor, never creates art.
+- MetaHuman 5.8 (free, in-engine incl. crowds/webcam mocap) + Mixamo (royalty-free, shippable baked only, no raw resell). Traps: Fab Reference-Only unshippable; pre-Oct-2024 Megascans don't transfer to Fab; CC0 no authorship claims; MetaHuman UE-locked.
 
 ## Asset base — GENERAL tools, re-skinned to Syria (corrected: never search Syria-specific kits)
 - General modular: Normandy Village (97 ruined stone meshes + PCG plants, Fab Standard free rotation) + Soul Cave (rock walls) + City Park (vegetation/street) + Content Examples (modular + master-material technique) + Vintage (interior props). Verify Standard license per asset at claim time.
