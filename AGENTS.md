@@ -20,5 +20,10 @@ Unreal Engine 5.8, local only, PC. No cloud builds. Free-first always. Pay only 
 - Output contract artifacts, not dumps. No full-project summaries in replies.
 - Every mutation must be undoable, verified by read-back or build log.
 
+## Memory (compounding, budgeted)
+- `docs/lessons.md` = verified-events memory, append-only, manager-approved entries. Cap ~100 lines: prune anything whose removal can't cause a repeat mistake. Freshness re-check per track, not daily.
+- Trials log lives in track papers (`trial PASS/notes`). Re-run a trial before reusing its agent on new work.
+- Self-edits: scoped docs/skills may change with receipt (what/why/rollback/how-verified) + JSON-syntax check + git diff visible. Root/governance (this file, agent cages, remotes, secrets) = manager only. No agent edits its own scorer, tests, or permissions to pass. No force-push, ever.
+
 ## Sensitivity
 Real war, real victims. Fact-checked lore, trauma with care, no glorification. Research before writing story beats.
