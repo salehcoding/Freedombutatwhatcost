@@ -16,5 +16,8 @@
 - License traps (never ship): NC, Editorial, Sketchfab non-CC, OGA GPL/SA copyleft.
 - OUR 12-piece kit + trim + 2 masters REMAINS the Syrian identity layer on top of general base. Trial-run PASS stands.
 
+## BlenderMCP (wired 2026-09-21)
+mcp-for-blender via uvx, addon installed + enabled headless on Blender 5.2, telemetry disabled. Opencode `blender-mcp` entry on, tools denied globally except art-visual. Server starts per Blender session from sidebar. Gives: Poly Haven CC0 + Sketchfab CC0-only + Poly Pizza CC0 pulls, execute_blender_code, FBX export. Sketchfab needs free API key (pending — user creates at sketchfab, stored in addon prefs, never in chat/repo).
+
 ## Deferred live proofs
 Cube import test + kit import + LOD check — need open project (execution). Trial covers design quality, not import chain.
