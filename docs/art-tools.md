@@ -8,9 +8,12 @@
 - Locked: Blender built-in FBX → UE. Settings: Metric/cm, Apply All Transforms, Scale 1.0, Forward -Z, Up Y, Apply Unit+Transform, Smoothing Face, Copy+Embed textures. UE Legacy FBX flag if 5.5+ importer complains. First prove with 100cm cube at execution.
 - MetaHuman (free, in-engine 5.8) + Mixamo (free, Adobe account) for people/motion later. Licenses re-checked at use.
 
-## Kit decision (no exact free ME kit shippable NOW)
-- Build OUR OWN 12-piece modular kit + 1 trim sheet (6 strips) + 2 masters (Masonry, Organic). Trial-run PASS: reuse counts, LOD notes, proxies, tables-only.
-- Poly Haven CC0 for dressing; Fab rotation only with Standard license verified per asset. City Sample/Content Examples (Epic free) as technique reference.
+## Asset base — GENERAL tools, re-skinned to Syria (corrected: never search Syria-specific kits)
+- General modular: Normandy Village (97 ruined stone meshes + PCG plants, Fab Standard free rotation) + Soul Cave (rock walls) + City Park (vegetation/street) + Content Examples (modular + master-material technique) + Vintage (interior props). Verify Standard license per asset at claim time.
+- Surfaces: Poly Haven CC0 (~850 textures, plaster/concrete/ground) + AmbientCG CC0 (2000+ materials) + desert HDRIs. No credit needed, shippable.
+- Claimed-2024 Megascans usable if entitled; unclaimed = paid, skip. Kenney = greybox only (stylized).
+- License traps (never ship): NC, Editorial, Sketchfab non-CC, OGA GPL/SA copyleft.
+- OUR 12-piece kit + trim + 2 masters REMAINS the Syrian identity layer on top of general base. Trial-run PASS stands.
 
 ## Deferred live proofs
 Cube import test + kit import + LOD check — need open project (execution). Trial covers design quality, not import chain.
