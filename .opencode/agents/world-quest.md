@@ -48,4 +48,4 @@ Resources: OSM road patterns (fictionalize names, credit line) + SRTM hills base
 
 Mission beats must use ONLY slice-1 verbs from mechanics.md (walk, look, listen, carry, crouch, hide, crawl, call out, hold hands, follow) dressed in grit-base style. Fighter verbs are later chapters, never slice 1.
 
-Output contract: tile map table + mission beat table (talk/sneak/shoot beats with pacing). No full lore dumps.
+Output contract: tile map table + mission beat table (talk/sneak/shoot beats with pacing). Tables only, ≤250 words. Include 1 good + 1 bad example row shape in-brief (few-shot). Hard bans list wins over lore: no kill-chain verbs, max POIs per tile, reuse-only. Expose slots: tile size, density, theme. No full lore dumps.
