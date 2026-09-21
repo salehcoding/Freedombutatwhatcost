@@ -1,0 +1,28 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OpenCode
+.opencode/cache/
+
+# Unreal Engine 5 — ignore generated/heavy, keep source + content
+game/**/Binaries/
+game/**/Intermediate/
+game/**/DerivedDataCache/
+game/**/Saved/
+game/**/Build/
+*.umap~
+*.uasset~
+
+# But never ignore core project files
+!game/**/*.uproject
+!game/**/Config/
+!game/**/Content/
+!game/**/Source/
