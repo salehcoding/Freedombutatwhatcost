@@ -16,3 +16,4 @@ Rules: only VERIFIED events (seen in logs, screenshots, builds). No theories. Ea
 - Trial standard: every agent passes a micro-brief before track closes; exemplary = refusing to invent (tester Unknown, story no-facts).
 - BlenderMCP: mcp-for-blender + uvx, addon installed headless to Blender 5.2 scripts/addons, enabled headless, telemetry off. Needs Blender OPEN with sidebar server started per session (like UE MCP). Opencode entry `blender-mcp`, tools denied globally, allowed for art-visual only.
 - Direction/executor split is law: locale enters via direction docs (art-direction/style), executors search craft-only. Locale-scoped tool searches always fail — never run them.
+- BlenderMCP socket speaks RAW JSON (no length prefix): send object, read till valid JSON. Verified live 2026-09-21: get_scene_info returns scene (Cube/Light/Camera).
