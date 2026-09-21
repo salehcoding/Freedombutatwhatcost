@@ -6,6 +6,7 @@ permission:
   read:
     "*": deny
     "AGENTS.md": allow
+    "docs/lessons.md": allow
     "docs/foundation.md": allow
     "docs/style.md": allow
     "docs/mechanics.md": allow
